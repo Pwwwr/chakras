@@ -1,7 +1,7 @@
 html {
     font-size: 16px;
     /* 1rem */
-    font-family: var(--tipografia);
+    font-family: var(--poppins);
 }
 
 
@@ -9,6 +9,32 @@ html {
 
 .sct-banner {
     width: 100%;
+    position: relative;
+}
+
+.sct-banner h2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: var(--blanco);
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.sct-banner button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--turquesa);
+    border: var(--turquesa);
+    color: var(--blanco);
+    cursor: pointer;
+    font-size: 0.8rem;
+    width: 140px;
+    height: 40px;
 }
 
 .sct-banner .img-container {
@@ -20,11 +46,245 @@ html {
 }
 
 
+/*Seccion Chakra poster*/
+
+.posters {
+    height: 54px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.posters h2 {
+    color: var(--gris-oscuro);
+    font-size: 1.25rem;
+}
+
+.posters p {
+    color: var(--gris-claro);
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+
+/*Seccion Trending products*/
+
+.trending {
+    text-align: center;
+}
+
+.trending p {
+    color: var(--gris-oscuro);
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.trending .alineados button {
+    font-family: var(--poppins);
+    font-size: 1rem;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.trending .redondo {
+    background: transparent;
+    border: 1px solid var(--gris-oscuro);
+    border-radius: 40px;
+    color: var(--gris-oscuro);
+    width: 100px;
+}
+
+.trending .sinborde {
+    background: transparent;
+    border: none;
+    color: var(--gris-claro);
+}
+
+
+/*Seccion shipping worlwide*/
+
+.shipping {
+    text-align: center;
+}
+
+.shipping-container {
+    background: var(--gris-oscuro);
+    color: var(--blanco);
+    height: 300px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.shipping-container p {
+    font-style: italic;
+    font-size: 1.25rem;
+    margin-top: 30px;
+}
+
+.shipping-container h2 {
+    font-size: 3.125rem;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.shipping-container .turquesa {
+    color: var(--turquesa);
+    font-size: 3.125rem;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.shipping-container .shop {
+    border: 1px solid #fff;
+    background: transparent;
+    color: var(--blanco);
+    width: 140px;
+    height: 40px;
+}
+
+
+/*Seccion tapestry*/
+
+.tapestry {
+    height: 54px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.tapestry h2 {
+    color: var(--gris-oscuro);
+    font-size: 1.25rem;
+}
+
+.tapestry p {
+    color: var(--gris-claro);
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+
+/*Seccion you shop we give*/
+
+.shop-give {
+    text-align: center;
+}
+
+.shop-give-container {
+    color: var(--blanco);
+    background: #FF61C3;
+    height: 300px;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+.shop-give h2 {
+    font-size: 3.75rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.shop-give p {
+    font-size: 1.125rem;
+    line-height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/*Seccion mugs*/
+
+.mugs {
+    height: 54px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mugs h2 {
+    color: var(--gris-oscuro);
+    font-size: 1.25rem;
+}
+
+.mugs p {
+    color: var(--gris-claro);
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+
+/*seccion bandanas*/
+
+.face-covering {
+    height: 54px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.face-covering h2 {
+    color: var(--gris-oscuro);
+    font-size: 1.25rem;
+}
+
+.face-covering p {
+    color: var(--gris-claro);
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+
+/*seccion elefantes*/
+
+.elefantes {
+    height: 54px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.elefantes h2 {
+    color: var(--gris-oscuro);
+    font-size: 1.25rem;
+}
+
+.elefantes p {
+    color: var(--gris-claro);
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+
+/*Load more products*/
+
+.load {
+    background: transparent;
+    border: 1px solid var(--turquesa);
+    color: var(--turquesa);
+    font-family: var(--poppins);
+    font-size: 0.8125rem;
+    letter-spacing: 2px;
+    width: 236px;
+    height: 42px;
+}
+
+
 /*Secciones con flex
 posters, camisas, tapetes, tazas, cubrebocas y elefantes*/
 
 .col {
     padding: 5px;
+    justify-content: center;
     margin-bottom: 30px;
     width: 228.656px;
 }
@@ -37,6 +297,7 @@ posters, camisas, tapetes, tazas, cubrebocas y elefantes*/
 .container-flex {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 25px;
 }
 
 .con-flex-col {
@@ -47,10 +308,27 @@ posters, camisas, tapetes, tazas, cubrebocas y elefantes*/
 
 /*Seccion blog*/
 
+.sola {
+    text-align: center;
+}
+
+.blog {
+    background: #F7F7F7;
+}
+
+.blog h2 {
+    color: var(--gris-oscuro);
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
 .col3 {
+    width: 350px;
     padding: 5px;
+    justify-content: center;
     margin-bottom: 30px;
-    width: 300px;
 }
 
 .col3 img {
@@ -61,6 +339,8 @@ posters, camisas, tapetes, tazas, cubrebocas y elefantes*/
 .container-flex-3 {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 25px;
 }
 
 .con-flex-col-3 {

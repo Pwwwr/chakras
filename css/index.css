@@ -5,6 +5,24 @@ html {
 }
 
 
+/*header*/
+
+.header-principal img {
+    height: 48px;
+    padding: 18px;
+}
+
+.header-principal .header-arriba {
+    background: #3e3e3e;
+    color: #fff;
+    height: 45px;
+}
+
+.header-arriba p {
+    padding-top: 16px;
+}
+
+
 /*seccion banner principal*/
 
 .sct-banner {
@@ -35,10 +53,6 @@ html {
     font-size: 0.8rem;
     width: 140px;
     height: 40px;
-}
-
-.sct-banner .img-container {
-    height: 350px;
 }
 
 .sct-banner .img-container img {
@@ -221,6 +235,77 @@ html {
 }
 
 
+/*Seccion blog*/
+
+.sola {
+    text-align: center;
+}
+
+.blog {
+    background: #F7F7F7;
+}
+
+.blog .titulo {
+    color: var(--gris-oscuro);
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+.col3 {
+    width: 348px;
+    height: 261px;
+    padding: 5px;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+
+.col3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-flex-3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.container-flex-3 h2 {
+    font-size: 0.9375rem;
+    font-weight: bolder;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.container-flex-3 p {
+    font-size: 0.9375rem;
+    line-height: 25px;
+    padding: 5px;
+}
+
+
+/*Boton view more*/
+
+.view {
+    text-align: center;
+}
+
+.view button {
+    background: transparent;
+    border: 1px solid var(--turquesa);
+    color: var(--turquesa);
+    font-family: var(--poppins);
+    font-size: 0.8125rem;
+    letter-spacing: 2px;
+    width: 144.250px;
+    height: 42px;
+    margin-bottom: 30px;
+}
+
+
 /*seccion bandanas*/
 
 .face-covering {
@@ -243,7 +328,64 @@ html {
 }
 
 
+/*Seccion subscribe*/
+
+.subscribe {
+    background: var(--gris-oscuro);
+    color: var(--blanco);
+    text-align: center;
+}
+
+.subscribe h2 {
+    font-size: 1.625rem;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.subscribe input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.subscribe ::placeholder {
+    font-size: 1.125rem;
+    color: var(--blanco);
+    text-align: center;
+}
+
+.subscribe button {
+    border: 1px solid var(--turquesa);
+    background: transparent;
+    color: var(--turquesa);
+    width: 120.531px;
+    height: 38px;
+    margin-bottom: 50px;
+}
+
+
 /*seccion elefantes*/
+
+.cole {
+    padding: 5px;
+    justify-content: center;
+    margin-bottom: 60px;
+    width: 228.656px;
+    height: 228.656px;
+}
+
+.cole img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-flex-e {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
 
 .elefantes {
     height: 54px;
@@ -264,6 +406,165 @@ html {
     font-style: italic;
 }
 
+.shirts {
+    width: 150px;
+    height: 62px;
+    position: relative;
+    top: -105px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.hoodies {
+    width: 150px;
+    height: 81px;
+    position: relative;
+    top: -105px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.tazas {
+    width: 150px;
+    height: 62px;
+    position: relative;
+    top: -105px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.container-flex-e h3 {
+    color: #4d5959;
+    font-weight: bold;
+    text-align: center;
+    background: #fff;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+
+/*Seccion antes del footer*/
+
+.seccion-antes-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.seccion-antes-footer h2 {
+    font-size: 0.875rem;
+}
+
+.seccion-antes-footer p {
+    font-size: 0.9375rem;
+    color: var(--gris-claro);
+    line-height: 40px;
+}
+
+.cuadro {
+    width: 120px;
+    height: 210px;
+    padding: 5px;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.cuadro div {
+    width: 100%;
+    height: 100%;
+}
+
+.seccion-antes-footer i {
+    color: var(--gris-claro);
+    font-size: 2rem;
+}
+
+
+/*Seccion Get in Touch*/
+
+
+/*footer*/
+
+footer .copyright {
+    font-size: 0.9375rem;
+    color: #808080;
+    text-align: center;
+    background: #2A2A2A;
+    height: 106px;
+    padding: 22px;
+}
+
+footer .copyright p {
+    display: inline-block;
+}
+
+footer .copyright .color {
+    color: var(--turquesa);
+}
+
+.menu-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    color: var(--blanco);
+    background: #1F1F1F;
+}
+
+.menu-bottom h2 {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.menu-bottom p {
+    font-size: 0.875rem;
+    color: #808080;
+    line-height: 40px;
+}
+
+.square {
+    width: 350px;
+    padding: 5px;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.square div {
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter {
+    margin-left: 15px;
+    width: 40%;
+}
+
+.newsletter input {
+    background: transparent;
+    border: 1px solid var(--gris-claro);
+    border-radius: 25px;
+    width: 350px;
+    height: 42px;
+    margin-bottom: 65px;
+    margin-top: 15px;
+}
+
+.newsletter button {
+    position: relative;
+    margin-left: 240px;
+    top: -106px;
+    background: var(--turquesa);
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    height: 36px;
+    width: 110px;
+    font-family: var(--poppins);
+    letter-spacing: 3px;
+}
+
 
 /*Load more products*/
 
@@ -276,17 +577,19 @@ html {
     letter-spacing: 2px;
     width: 236px;
     height: 42px;
+    margin-top: 30px;
 }
 
 
 /*Secciones con flex
-posters, camisas, tapetes, tazas, cubrebocas y elefantes*/
+posters, camisas, tapetes, tazas, cubrebocas*/
 
 .col {
     padding: 5px;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     width: 228.656px;
+    height: 228.656px;
 }
 
 .col img {
@@ -300,50 +603,102 @@ posters, camisas, tapetes, tazas, cubrebocas y elefantes*/
     margin-left: 25px;
 }
 
-.con-flex-col {
-    display: flex;
-    flex-direction: row;
+.container-flex h2 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.container-flex p {
+    font-size: 0.9375rem;
 }
 
 
-/*Seccion blog*/
+/*MEDIA QUERIES*/
 
-.sola {
-    text-align: center;
+@media only screen and (max-width: 768px) {
+    .header-principal nav a {
+        display: none;
+    }
+    .header-principal nav .email {
+        display: none;
+    }
+    .header-principal nav {
+        text-align: center;
+    }
 }
 
-.blog {
-    background: #F7F7F7;
-}
-
-.blog h2 {
-    color: var(--gris-oscuro);
-    font-size: 1.25rem;
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 40px;
-}
-
-.col3 {
-    width: 350px;
-    padding: 5px;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.col3 img {
-    width: 100%;
-    height: 100%;
-}
-
-.container-flex-3 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    margin-left: 25px;
-}
-
-.con-flex-col-3 {
-    display: flex;
-    flex-direction: row;
+@media only screen and (max-width: 600px) {
+    .sct-banner h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        width: 90%;
+    }
+    /*Secciones tapetes, posters, tazas, bandanas*/
+    .col {
+        padding: 5px;
+        justify-content: center;
+        margin-bottom: 100px;
+        width: 570px;
+        height: 570px;
+    }
+    .container-flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+    /*seccion shop-give*/
+    .shop-give-container {
+        height: 250px;
+    }
+    .shop-give h2 {
+        font-size: 2rem;
+    }
+    /*Seccion yoga*/
+    .col3 {
+        width: 570px;
+        height: 427.500px;
+    }
+    .container-flex-3 {
+        margin-left: 10px;
+    }
+    /*Seccion elefantes*/
+    /*seccion elefantes*/
+    .cole {
+        width: 280px;
+        height: 280px;
+        margin-bottom: 10px;
+    }
+    .container-flex-e {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+    .shirts {
+        margin-left: 60px;
+    }
+    .hoodies {
+        margin-left: 65px;
+    }
+    .tazas {
+        margin-left: 62px;
+    }
+    .container-flex-e h3 {
+        color: #4d5959;
+        font-weight: bold;
+        text-align: center;
+        background: #fff;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    /*seccion antes del footer*/
+    .seccion-antes-footer {
+        margin-left: 20px;
+    }
+    .cuadro {
+        width: 570px;
+        height: 50px;
+        margin-left: 60px;
+    }
 }

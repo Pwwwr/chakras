@@ -1,11 +1,14 @@
 html {
     font-size: 16px;
-    /* 1rem */
     font-family: var(--poppins);
 }
 
 
 /*header*/
+
+.header-principal nav {
+    text-align: center;
+}
 
 .header-principal img {
     height: 48px;
@@ -16,6 +19,7 @@ html {
     background: #3e3e3e;
     color: #fff;
     height: 45px;
+    text-align: center;
 }
 
 .header-arriba p {
@@ -36,6 +40,8 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2.5rem;
+    text-align: center;
+    width: 90%;
     color: var(--blanco);
     font-weight: 900;
     letter-spacing: 1px;
@@ -50,7 +56,7 @@ html {
     border: var(--turquesa);
     color: var(--blanco);
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     width: 140px;
     height: 40px;
 }
@@ -193,13 +199,13 @@ html {
 .shop-give-container {
     color: var(--blanco);
     background: #FF61C3;
-    height: 300px;
+    height: 250px;
     padding-top: 40px;
     margin-top: 30px;
 }
 
 .shop-give h2 {
-    font-size: 3.75rem;
+    font-size: 2rem;
     font-weight: 900;
     letter-spacing: 3px;
     margin-bottom: 30px;
@@ -235,7 +241,7 @@ html {
 }
 
 
-/*Seccion blog*/
+/*Seccion blog-yoga*/
 
 .sola {
     text-align: center;
@@ -254,8 +260,8 @@ html {
 }
 
 .col3 {
-    width: 348px;
-    height: 261px;
+    width: 570px;
+    height: 427.500px;
     padding: 5px;
     justify-content: center;
     margin-bottom: 140px;
@@ -270,7 +276,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 .container-flex-3 h2 {
@@ -371,9 +377,8 @@ html {
 .cole {
     padding: 5px;
     justify-content: center;
-    margin-bottom: 60px;
-    width: 228.656px;
-    height: 228.656px;
+    width: 280px;
+    height: 280px;
 }
 
 .cole img {
@@ -384,7 +389,7 @@ html {
 .container-flex-e {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 .elefantes {
@@ -411,16 +416,16 @@ html {
     height: 62px;
     position: relative;
     top: -105px;
-    margin-left: 35px;
+    margin-left: 60px;
     margin-top: 10px;
 }
 
 .hoodies {
     width: 150px;
-    height: 81px;
+    height: 62px;
     position: relative;
     top: -105px;
-    margin-left: 35px;
+    margin-left: 65px;
     margin-top: 10px;
 }
 
@@ -429,7 +434,7 @@ html {
     height: 62px;
     position: relative;
     top: -105px;
-    margin-left: 35px;
+    margin-left: 62px;
     margin-top: 10px;
 }
 
@@ -448,7 +453,7 @@ html {
 .seccion-antes-footer {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 40px;
 }
 
@@ -463,11 +468,11 @@ html {
 }
 
 .cuadro {
-    width: 120px;
-    height: 210px;
+    width: 570px;
+    height: 50px;
     padding: 5px;
     justify-content: center;
-    margin-left: 15px;
+    margin-left: 60px;
 }
 
 .cuadro div {
@@ -478,6 +483,8 @@ html {
 .seccion-antes-footer i {
     color: var(--gris-claro);
     font-size: 2rem;
+    position: relative;
+    bottom: -34px;
 }
 
 
@@ -582,14 +589,14 @@ footer .copyright .color {
 
 
 /*Secciones con flex
-posters, camisas, tapetes, tazas, cubrebocas*/
+camisas, tapetes, tazas, cubrebocas*/
 
 .col {
     padding: 5px;
     justify-content: center;
     margin-bottom: 100px;
-    width: 228.656px;
-    height: 228.656px;
+    width: 280px;
+    height: 280px;
 }
 
 .col img {
@@ -600,7 +607,7 @@ posters, camisas, tapetes, tazas, cubrebocas*/
 .container-flex {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 .container-flex h2 {
@@ -615,90 +622,248 @@ posters, camisas, tapetes, tazas, cubrebocas*/
 }
 
 
-/*MEDIA QUERIES*/
+/*Secciones con flex
+posters*/
 
-@media only screen and (max-width: 768px) {
-    .header-principal nav a {
-        display: none;
-    }
-    .header-principal nav .email {
-        display: none;
-    }
-    .header-principal nav {
-        text-align: center;
-    }
+.colp {
+    padding: 5px;
+    justify-content: center;
+    margin-bottom: 80px;
+    width: 570px;
+    height: 570px;
 }
 
-@media only screen and (max-width: 600px) {
+.colp img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-flex-poster {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.container-flex-poster h2 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.container-flex-poster p {
+    font-size: 0.9375rem;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 480px) {
     .sct-banner h2 {
         font-size: 2.5rem;
         text-align: center;
-        width: 90%;
+        width: 50%;
     }
-    /*Secciones tapetes, posters, tazas, bandanas*/
+    .sct-banner button {
+        top: 78%;
+    }
+    /*seccion flex*/
     .col {
-        padding: 5px;
-        justify-content: center;
-        margin-bottom: 100px;
-        width: 570px;
-        height: 570px;
+        width: 220px;
+        height: 220px;
     }
-    .container-flex {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 10px;
+    .colp {
+        width: 450px;
+        height: 450px;
     }
-    /*seccion shop-give*/
+    /*Seccion you shop we give*/
     .shop-give-container {
-        height: 250px;
-    }
-    .shop-give h2 {
-        font-size: 2rem;
+        height: 320px;
     }
     /*Seccion yoga*/
     .col3 {
-        width: 570px;
-        height: 427.500px;
+        width: 450px;
+        height: 337.500px;
     }
-    .container-flex-3 {
-        margin-left: 10px;
-    }
-    /*Seccion elefantes*/
     /*seccion elefantes*/
     .cole {
-        width: 280px;
-        height: 280px;
-        margin-bottom: 10px;
-    }
-    .container-flex-e {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 10px;
+        width: 220px;
+        height: 220px;
     }
     .shirts {
-        margin-left: 60px;
+        margin-left: 35px;
     }
     .hoodies {
-        margin-left: 65px;
+        margin-left: 35px;
     }
     .tazas {
-        margin-left: 62px;
+        margin-left: 35px;
     }
-    .container-flex-e h3 {
-        color: #4d5959;
-        font-weight: bold;
-        text-align: center;
-        background: #fff;
-        line-height: 20px;
-        padding-top: 15px;
+    .shipping-container {
+        background: var(--gris-oscuro);
+        color: var(--blanco);
+        height: 320px;
+        padding-top: 30px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .sct-banner h2 {
+        font-weight: 900;
+    }
+    /*Seccion you shop we give*/
+    .shop-give-container {
+        height: 300px;
+    }
+    .shop-give h2 {
+        font-size: 3.75rem;
+    }
+    /*Secciones con flex, posters, camisas, tapetes, tazas, cubrebocas*/
+    .col {
+        width: 228.656px;
+        height: 228.656px;
+    }
+    .colp {
+        width: 228.656px;
+        height: 228.656px;
+    }
+    .container-flex {
+        margin-left: 25px;
+    }
+    .container-flex-poster {
+        margin-left: 25px;
+    }
+    /*Seccion blog*/
+    .col3 {
+        width: 348px;
+        height: 261px;
+    }
+    .container-flex-3 {
+        margin-left: 25px;
+    }
+    /*seccion elefantes*/
+    .cole {
+        width: 228.656px;
+        height: 228.656px;
+    }
+    .container-flex-e {
+        margin-left: 25px;
+    }
+    .shirts {
+        margin-left: 35px;
+    }
+    .hoodies {
+        margin-left: 35px;
+    }
+    .tazas {
+        margin-left: 35px;
+    }
+    /*Seccion antes del footer*/
+    .seccion-antes-footer {
+        padding-top: 50px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .seccion-antes-footer h2 {
+        font-size: 0.875rem;
+    }
+    .seccion-antes-footer p {
+        font-size: 0.9375rem;
+        color: var(--gris-claro);
+        line-height: 40px;
+    }
+    .cuadro {
+        width: 120px;
+        height: 210px;
+        padding: 5px;
+        justify-content: center;
+        margin-left: 15px;
+    }
+    .cuadro div {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .sct-banner button {
+        top: 55%;
+    }
+    /*Secciones tapetes, posters, tazas, bandanas*/
+    .col {
+        width: 220px;
+        height: 220px;
+        padding: 15px;
+    }
+    .container-flex {
+        margin-left: 15px;
+    }
+    .colp {
+        width: 220px;
+        height: 220px;
+        padding: 15px;
+    }
+    .container-flex-poster {
+        margin-left: 15px;
+    }
+    /*seccion shop-give*/
+    .shop-give h2 {
+        font-size: 3.75rem;
+        font-weight: 900;
+    }
+    /*Seccion yoga*/
+    .col3 {
+        width: 303.984px;
+        height: 227.984px;
+        padding: 12px;
+    }
+    .container-flex-3 {
+        margin-left: 20px;
+    }
+    /*Seccion elefantes*/
+    .cole {
+        width: 305.328px;
+        height: 305.328px;
+    }
+    .container-flex-e {
+        margin-left: 40px;
+    }
+    .shirts {
+        margin-left: 80px;
+    }
+    .hoodies {
+        margin-left: 85px;
+    }
+    .tazas {
+        margin-left: 82px;
     }
     /*seccion antes del footer*/
     .seccion-antes-footer {
-        margin-left: 20px;
+        margin-left: 40px;
     }
     .cuadro {
-        width: 570px;
-        height: 50px;
-        margin-left: 60px;
+        width: 180px;
+        height: 132px;
+        margin-left: 10px;
+    }
+    /*footer*/
+    .square {
+        width: 140px;
+        justify-content: center;
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+    .menu-bottom .div1 {
+        width: 200px;
+    }
+    .newsletter {
+        margin-left: 15px;
+        width: 25%;
+    }
+    .newsletter input {
+        width: 250px;
+    }
+    .newsletter button {
+        margin-left: 140px;
     }
 }

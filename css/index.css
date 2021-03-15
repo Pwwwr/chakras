@@ -1,3 +1,5 @@
+/*Resolucion 600px*/
+
 html {
     font-size: 16px;
     font-family: var(--poppins);
@@ -13,6 +15,7 @@ html {
 .header-principal img {
     height: 48px;
     padding: 18px;
+    margin-left: 40px;
 }
 
 .header-principal .header-arriba {
@@ -24,6 +27,27 @@ html {
 
 .header-arriba p {
     padding-top: 16px;
+}
+
+.header-abajo i {
+    font-size: 1.5rem;
+    color: var(--gris-claro);
+    margin-top: 24px;
+}
+
+.fa-bars {
+    float: left;
+    margin-left: 15px;
+}
+
+.fa-shopping-bag {
+    float: right;
+    margin-right: 20px;
+}
+
+.fa-search {
+    float: right;
+    margin-right: 20px;
 }
 
 
@@ -487,6 +511,23 @@ html {
     bottom: -34px;
 }
 
+.div1 i {
+    margin-right: 10px;
+    font-size: 1.125rem;
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+}
+
+.fa-pinterest {
+    color: #cb2027;
+}
+
+.fa-instagram {
+    color: #ff206e;
+}
+
 
 /*Seccion Get in Touch*/
 
@@ -653,6 +694,12 @@ posters*/
 
 .container-flex-poster p {
     font-size: 0.9375rem;
+}
+
+.btn-hover:hover {
+    cursor: pointer;
+    display: inline-block;
+    background: var(--turquesa);
 }
 
 
